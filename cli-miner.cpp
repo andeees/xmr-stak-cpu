@@ -181,6 +181,8 @@ FreeConsole();
 	return 0;
 }
 
+/*
+
 void do_benchmark()
 {
 	using namespace std::chrono;
@@ -211,3 +213,5 @@ void do_benchmark()
 
 	printer::inst()->print_msg(L0, "Total: %.1f H/S", fTotalHps);
 }
+
+*/
