@@ -117,12 +117,16 @@ FreeConsole();
 		return 0;
 	}
 
+/*
+
 	if(benchmark_mode)
 	{
 		do_benchmark();
 		win_exit();
 		return 0;
 	}
+	
+*/
 
 #ifndef CONF_NO_HTTPD
 	if(jconf::inst()->GetHttpdPort() != 0)
