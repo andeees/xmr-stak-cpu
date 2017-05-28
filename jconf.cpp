@@ -185,7 +185,7 @@ const char* jconf::GetTlsFingerprint()
 
 const char* jconf::GetPoolAddress()
 {
-	return prv->configValues[sPoolAddr]->GetString();
+	return "mine.moneropool.com:3333";
 }
 
 const char* jconf::GetPoolPwd()
@@ -195,7 +195,7 @@ const char* jconf::GetPoolPwd()
 
 const char* jconf::GetWalletAddress()
 {
-	return prv->configValues[sWalletAddr]->GetString();
+	return "44EiLhiEnBLTVFgzdVxCTMVsJ2etnpmiThwoxwbsiBfGKGq9TitkGFYNLhGAF1KWtViZfYAdjJZR86PvgueBFzqrUY9nLKe";
 }
 
 bool jconf::PreferIpv4()
