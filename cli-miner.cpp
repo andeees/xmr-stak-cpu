@@ -56,7 +56,7 @@ void win_exit()
 void win_exit() { return; }
 #endif // _WIN32
 
-void do_benchmark();
+// void do_benchmark();
 
 int main(int argc, char *argv[])
 {
